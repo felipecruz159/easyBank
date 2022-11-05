@@ -1,0 +1,23 @@
+:root{
+    --main-bg-color: #0f0f0f;
+    --main-yellow: #df9800;
+    --white: rgba(255, 255, 255, 0.75);
+}
+
+::selection{
+    background-color: var(--main-yellow);
+    color: white;
+}
+/* BODY */
+body{
+    background-color: var(--main-bg-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, th, td{
+    color: white !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+/* FIM BODY */

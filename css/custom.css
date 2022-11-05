@@ -1,0 +1,117 @@
+/* HEADER */
+
+header{
+    background-color: var(--main-bg-color);
+}
+
+header img{
+    width: 150px !important;
+    margin: 0% 1% 1% 1%;
+}
+
+.nav-link{
+    color: var(--white) !important;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.nav-link:hover{
+    color: var(--main-yellow) !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+.active{
+    color: var(--main-yellow) !important;
+}
+
+/* FIM HEADER */
+
+/* HOMEPAGE */
+
+.homepage span{
+    color: var(--main-yellow);
+    font-family: 'Aachen', sans-serif;
+}
+
+.homepage h1{
+    font-size: 4vw;
+}
+
+.homepage img{
+    width: 100%;
+}
+
+.homepage{
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+
+/* FIM HOMEPAGE */
+
+/* CONTAS */
+.contas{
+    margin-top: 5%;
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btns a{
+    margin-right: 5px;
+}
+
+/* FIM CONTAS */
+
+/* FOOTER */
+hr{
+    color: var(--white) !important;
+}
+
+.footer-superior a, .footer-superior li{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: var(--main-yellow) !important;
+    font-size: 11pt !important;
+}
+
+.footer-superior a, .footer-superior li{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: var(--main-yellow) !important;
+    font-size: 11pt !important;
+}
+
+.footer-superior .descricao, .footer-superior p{
+    color: var(--white)!important;
+    text-align: justify;
+}
+
+.footer-superior a:hover{
+    color: var(--white) !important;
+    text-decoration: underline !important;
+}
+
+.creditos{
+    background-color: black;
+}
+
+.creditos p{
+    margin: 0;
+}
+/* FIM FOOTER */
+
+/* LISTAGEM */
+
+/* FIM LISTAGEM */

@@ -1,0 +1,9 @@
+CREATE DATABASE easyBank;
+
+CREATE TABLE contas(
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    saldo DECIMAL(10,2) NOT NULL,
+    cartao VARCHAR(7) NOT NULL, #padrao/premium
+    data DATETIME NOT NULL
+);
